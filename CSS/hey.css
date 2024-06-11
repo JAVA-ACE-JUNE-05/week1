@@ -1,0 +1,52 @@
+
+.heading{
+    color: cadetblue;
+    border: 2px dotted gray;
+    text-align: center;
+}
+.kulsoom{
+    color: red;
+}
+
+#cat{
+    
+}
+*{
+    
+}
+
+body {
+    background-image: url(penguinimg.jpg);
+    background-repeat: no-repeat; /* stops image from repeating itself*/
+    background-size: cover; /* makes it full screened as a cover*/
+    background-position: center; /* Center the image */
+    height: 100vh; /* Full viewport height */
+}
+#para{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px ;
+    border: 2px dotted grey;
+
+    /*MORE WITH BORDER ARE:   
+    border width 
+    border style 
+    border color 
+    border radius */
+     margin: 20px ;   /* margin can be from all sides/ 20 px means from 4 sides */
+                     /*       top right botom left */
+                    /* margin: 7px 0px  2px   11px; */
+    background-color: green;
+    color: white;
+    display: flex;
+}
+

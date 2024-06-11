@@ -1,0 +1,79 @@
+/* 
+
+    CSS stands for: Cascading style sheets 
+
+    HTML WAS THE STRUCTURE BUT CSS ADDS STYLE TO THAT STRUCTURE
+
+    Shortcut:
+    div.container
+    to make a automatic div class of container
+    div#first
+    to make a automatic div id of first
+
+    we can style the page using 3 ways
+    1- on the head tag calling each element (style tag)
+    2- inline of the element (inline css)
+    3- creating a css sheet and calling the element (external css)
+
+    Html id and class attributes:
+    when an html element is given and id it serves as a unique ientifier
+    when a html element is given an class it now belongs to that class(more than one lement can belong to a same class)
+    not the same case with id 
+    
+    p class = "cat dog fish"
+    paragraph belongs to 3 diff classes now by utilizing space in between
+
+    # is used for id
+    . is used for class
+    
+    CSS SELECTORS:
+    id 
+    class
+    element
+    * 
+
+    p , h1 {
+    this css style will work we can add multiple like this
+    }
+
+    css priortize:
+    1- inline style first
+    2- style tag in head tag  
+    3- css style sheet  
+
+    css is known to be working with key value pairs
+    p           class = "cat dog fish"
+                key         value
+
+    margin: 0
+    padding: 0
+    m0+p0 use this shortcut to do the same work
+
+    body{
+    background-image: url(penguinimg.jpg);
+    }
+
+    CSS BOX MODEL
+    The 4 regions of the box model are from inner to outer: 
+    o Content: the actual content of the element. 
+    o Padding: this is generally empty space between the content and the border. 
+    o Border: This region allows for the CSS border styling. 
+    o Margin: This is generally empty space between the border and the margin of the next element.
+
+    we use box model to manipulate the content inside it according to your specifications
+
+
+    display – allows you to set if an element functions as a block or inline element.
+
+    CSS FRAMEWORK:
+
+    Bootstrap is a popular CSS framework. It is a class-based framework meaning that styling is 
+    applied using HTML classes. 
+    Note: because classes are highly specific, this means that overriding Bootstrap in instances where 
+    you wish to apply custom styling can be difficult.
+
+    can connect bootstrap by using the global link in bootstrap official website
+    link in head tag 
+
+    note: we can link multiple files with html at the same time..
+*/

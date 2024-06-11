@@ -1,0 +1,26 @@
+*{
+    
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+.right{
+    display: inline-block;
+    width:50%;
+    height: 70vh;
+    background-color: blue;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    height: 70vh;
+    background-color: blueviolet; 
+}
+.box{
+    position:sticky;
+    width: 50%;
+    margin-left: 50%;
+    background-color: brown;
+}
