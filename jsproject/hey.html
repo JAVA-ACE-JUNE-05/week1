@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+</head>
+<body>
+    <h1>Grocery List</h1>
+    <input type="text" id="item" placeholder="Enter item...">
+    <button onclick="addItem()">Add Item</button>
+    <ul id="groceryList"></ul>
+
+    <!-- 
+    IT IS RECOMMENDED TO USE SCRIPT TAG AT THE END OF THE BODY TAG
+    -> Script tag is from where you can code java script
+    -> either you can create an js file and connect through script src" " -->
+    
+    <script>
+    // DOM: DOCUMENT OBJECT MODEL :
+    // A way for programs to change and interact with the content and structure of web pages.
+    // it is used to manipulate and function accordingly 
+    // accessed the html page/document by using
+    //  document.getElementById
+    //  can be class / element too
+
+    function addItem() {
+    // Get the value of the input field with id 'item'
+    const item = document.getElementById('item').value;
+
+    // Create a new <li> element
+    const li = document.createElement('li');
+
+    // Set the text content of the <li> element to the value of 'item'
+    li.textContent = item;
+
+    // Append the <li> element to an existing <ul> element with id 'groceryList'
+    document.getElementById('groceryList').appendChild(li);
+
+    // Clear the input field after adding the item
+    document.getElementById('item').value = '';
+    }
+    </script>
+    
+</body>
+</html>
